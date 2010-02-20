@@ -14,7 +14,7 @@ During installation plugin will create default config in RAILS_ROOT/config/appli
     items_per_page: 25
     secure_with_basic_auth: false
     base_url: development.com
-    erb_enabled_property: <%= Rails.root + "/something" %>
+    erb_enabled_property: <%= "#{Rails.root}/something" %>
   test:
     <<: *defaults
     base_url: test.com
