@@ -33,5 +33,3 @@ You then can access those values using 'property' method:
   end
 
 This will set @base_url with value 'development.com' if you run that in development environment.
-
-Hello people!
