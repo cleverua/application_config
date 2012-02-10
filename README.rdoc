@@ -4,7 +4,11 @@
 
 == Installation
 
-	gem 'application_config', '2.0'
+	gem "cleverua_application_config", "~> 2.0"
+
+	Then run:
+
+	rails generate application_config:install
 
 == Default configuration file
 

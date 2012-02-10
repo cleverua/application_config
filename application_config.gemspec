@@ -1,7 +1,7 @@
 # Provide a simple gemspec so you can easily use your enginex
 # project in your rails apps through git.
 Gem::Specification.new do |s|
-  s.name = "application_config"
+  s.name = "cleverua_application_config"
 	s.author = "Boris Babusenko"
 	s.email = ["boris@cleverua.com"]
 	s.homepage = "https://github.com/cleverua/application_config"
