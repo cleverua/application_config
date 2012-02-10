@@ -4,7 +4,7 @@
 
 == Installation
 
-	gem "cleverua_application_config", "~> 2.0"
+	gem "cleverua_application_config", "~> 2.0", :require => "application_config"
 
 	Then run:
 
