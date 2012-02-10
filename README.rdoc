@@ -4,8 +4,6 @@
 
 == Installation
 
-	Rails 3.x (add this to your Gemfile):
-	
 	gem 'application_config', '2.0'
 
 == Default configuration file
@@ -24,7 +22,6 @@ During installation plugin will create default config in RAILS_ROOT/config/appli
     <<: *defaults
     base_url: production.com
 
-==
 == Usage
 
 You then can access those values using 'property' method:
