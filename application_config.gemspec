@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.description = "'application_config' eases project configuring by introducing erb enabled yaml config file in RAILS_ROOT/config folder and provides handful methods accessing config values based on current rails environment. So, you can have separate sets of configuration properties for each rails environment you use."
 
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
-  s.version = "2.0"
+  s.version = "2.0.1"
 	s.require_paths = ["lib"]
 end
